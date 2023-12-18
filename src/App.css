@@ -26,6 +26,7 @@
 
 .App-link {
   color: #61dafb;
+  margin-block-end: 1.5rem;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  color: #06092a;
+  background-color: #61dafb;
+  padding: 0.5rem 1rem;
+
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+
+.img {
+  max-width: 500px;
+  margin-block-end: 1.5rem;
+  border-radius: 1rem;
 }
